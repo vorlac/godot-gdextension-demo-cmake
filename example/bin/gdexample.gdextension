@@ -1,0 +1,21 @@
+[configuration]
+
+entry_symbol = "gdextension_example_library_init"
+compatibility_minimum = 4.1
+
+[libraries]
+
+windows.debug.x86_32 = "res://bin/gdext_exampled.dll"
+windows.release.x86_32 = "res://bin/gdext_exampled.dll"
+windows.debug.x86_64 = "res://bin/gdext_exampled.dll"
+windows.release.x86_64 = "res://bin/gdext_example.dll"
+linux.debug.x86_64 = "res://bin/gdext_exampled.so"
+linux.release.x86_64 = "res://bin/gdext_example.so"
+linux.debug.arm64 = "res://bin/gdext_exampled.so"
+linux.release.arm64 = "res://bin/gdext_example.so"
+linux.debug.rv64 = "res://bin/gdext_exampled.so"
+linux.release.rv64 = "res://bin/gdext_exampled.so"
+android.debug.x86_64 = "res://bin/gdext_exampled.so"
+android.release.x86_64 = "res://bin/gdext_example.so"
+android.debug.arm64 = "res://bin/gdext_exampled.so"
+android.release.arm64 = "res://bin/gdext_example.so"

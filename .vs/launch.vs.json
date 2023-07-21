@@ -1,0 +1,28 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "dll",
+      "exe": "C:\\tools\\godot\\Godot_v4.1-stable_win64.exe",
+      "args": [
+        "--editor",
+        "--path",
+        "${workspaceRoot}\\example"
+      ],
+      "project": "CMakeLists.txt",
+      "name": "example lib (release editor)"
+    },
+    {
+      "type": "dll",
+      "exe": "${workspaceRoot}\\engine\\bin\\godot.windows.editor.x86_64.exe",
+      "args": [
+        "--editor",
+        "--path",
+        "${workspaceRoot}\\example"
+      ],
+      "project": "CMakeLists.txt",
+      "name": "example lib (debug editor)"
+    }
+  ]
+}
